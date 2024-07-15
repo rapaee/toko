@@ -1,0 +1,70 @@
+.header a{
+    text-decoration: none;
+}
+.header a:hover{
+  color: lightgray;
+  transition: 0.3s ;
+}
+.header li{
+    list-style-type: none;
+}
+.header img{
+    width: 15px;
+}
+.left, .right{
+    display: flex;
+    gap: 20px;
+}
+.right{
+    margin-left: 1140px;
+    margin-top: -25px;
+}
+.notification-item {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+  }
+  
+  .notification-item img {
+    margin-right: 8px; /* Adds some space between the image and the text */
+  }
+  .Login-item {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+  }
+  
+  .Login-item img {
+    margin-right: 8px; /* Adds some space between the image and the text */
+  }
+  .logo img{
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .kategori{
+    font-size: 25px;
+    margin-left: 240px;
+    margin-top: -65px;
+  }
+  .search{
+    margin-left: 350px;
+    margin-top: -60px;
+  }
+  .search input{
+    width: 820px;
+    height: 30px;
+    padding-left: 30px;
+  }
+  .search img{
+    position: absolute;
+    width: 20px;
+    margin-left: -850px;
+    margin-top: 8px;
+    opacity: 50%;
+  }
+  .keranjang{
+    margin-left: 1250px;
+    margin-top: -40px;
+  }
+  .keranjang img{
+    width: 40px;
+  }
