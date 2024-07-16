@@ -1,3 +1,6 @@
+*{
+  font-family: sans-serif;
+}
 .nav a{
     text-decoration: none;
 }
@@ -43,7 +46,7 @@
   .kategori{
     font-size: 25px;
     margin-left: 240px;
-    margin-top: -65px;
+    margin-top: -70px;
   }
   .search{
     margin-left: 350px;
@@ -90,36 +93,47 @@
     margin: 20px 0; /* Atur jarak vertikal dari garis ke elemen lain */
   }
   /*css untuk web banner*/
-  .slider {
+  .web-banner {
     width: 100%;
     overflow: hidden;
     position: relative;
   }
   
-  .slides {
+  .slider {
     display: flex;
-    width: 300%;
-    transition: 0.3s ease;
+    width: 1920px; /* Sesuaikan dengan jumlah slide */
+    animation: slide-right 13s infinite;
   }
   
-  .slides img {
+  .slides {
     width: 100%;
+    flex: 1 0 100%;
+  }
+  .slides img {
+    width: 1420px;
     height: auto;
   }
-  
-  @keyframes slide {
+  @keyframes slide-right {
     0% {
       transform: translateX(0%);
     }
-    50% {
+    30% {
+      transform: translateX(0%);
+    }
+    33% {
+      transform: translateX(-100%);
+    }
+    63% {
       transform: translateX(-100%);
     }
     66% {
+      transform: translateX(-200%);
+    }
+    96% {
       transform: translateX(-200%);
     }
     100% {
       transform: translateX(0%);
     }
   }
-  
   
