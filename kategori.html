@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kategori Toko</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.category-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.category-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    transition: transform 0.2s;
+}
+
+.category-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.category-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.category-item:hover {
+    transform: scale(1.05);
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Kategori Toko</h1>
+        <div class="category-grid">
+            <div class="category-item">
+                <img src="./gambar/Laptop.jpeg" alt="Elektronik">
+                <a href=""><p>Elektronik</p></a>
+            </div>
+            <div class="category-item">
+                <img src="./gambar/sepatu.jpeg" alt="Fashion">
+                <p>Fashion</p>
+            </div>
+            <div class="category-item">
+                <img src="https://via.placeholder.com/150" alt="Kesehatan">
+                <p>Kesehatan</p>
+            </div>
+            <div class="category-item">
+                <img src="./gambar/g7.webp" alt="Kecantikan">
+                <p>Kecantikan</p>
+            </div>
+            <div class="category-item">
+                <img src="https://via.placeholder.com/150" alt="Olahraga">
+                <p>Olahraga</p>
+            </div>
+            <div class="category-item">
+                <img src="https://via.placeholder.com/150" alt="Perlengkapan Rumah">
+                <p>Perlengkapan Rumah</p>
+            </div>
+            <div class="category-item">
+                <img src="https://via.placeholder.com/150" alt="Otomotif">
+                <p>Otomotif</p>
+            </div>
+            <div class="category-item">
+                <img src="https://via.placeholder.com/150" alt="Hobi">
+                <p>Hobi</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
