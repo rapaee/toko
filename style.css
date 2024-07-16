@@ -1,15 +1,12 @@
 *{
   font-family: sans-serif;
 }
-.nav a{
-    text-decoration: none;
-}
-.nav a:hover{
-  color: lightgray;
-  transition: 0.3s ;
+* a{
+  text-decoration: none;
 }
 .nav li{
     list-style-type: none;
+    color: black;
 }
 .nav img{
     width: 15px;
@@ -47,6 +44,9 @@
     font-size: 25px;
     margin-left: 240px;
     margin-top: -70px;
+  }
+  .kategori p{
+    color: black;
   }
   .search{
     margin-left: 350px;
